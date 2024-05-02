@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension ViewController{
+    static var id: String {
+        String(describing: self)
+    }
+}

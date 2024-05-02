@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct QuestionModel{
+    let num: String
+    let question: String
+    let a: String
+    let b: String
+    let c: String
+}
